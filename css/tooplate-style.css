@@ -31,6 +31,16 @@ p {
   height: 450px;
   background-size: cover;
 }
+
+.projectImg {
+  width:  300px;
+  height: 300px;
+  background-size: cover;
+}
+
+.projectSectionHeader {
+  font-weight: bold;
+}
 /**/
 
 .full-screen {
