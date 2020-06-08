@@ -17,6 +17,15 @@ body {
 .highlight {
   color: #D4AF37;
 }
+
+span {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
 /**/
 
 .full-screen {
