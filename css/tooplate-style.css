@@ -26,6 +26,11 @@ p {
   color: #fff;
 }
 
+.container-fluid img {
+  width:  450px;
+  height: 450px;
+  background-size: cover;
+}
 /**/
 
 .full-screen {
