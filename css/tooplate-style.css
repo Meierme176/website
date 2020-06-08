@@ -19,7 +19,7 @@ body {
 }
 
 span {
-  color: #fff;
+  color: #fff !important;
 }
 
 p {
