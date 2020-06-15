@@ -23,8 +23,18 @@ hr {
     padding: 0;
 }
 
-.highlight span {
+/* Header section at the home page. ex) experiences, skillset, etc */
+.mb-4.sectionTitle {
   color: #AD974F;
+}
+
+/* Project title styling */
+.projectTitle {
+  color: #AD974F;
+}
+
+.highlight span {
+  color: #8E793E;
 }
 
 .mytooltip {
@@ -105,7 +115,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #AD974F !important; /* yellow: ffc200, blue: 458BFA */ 
+  color: #8E793E !important; /* yellow: ffc200, blue: 458BFA */ 
 }
 
 .navbar-brand .uil {
@@ -157,14 +167,14 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #AD974F;
+  color: #8E793E;
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #AD974F;
+  background: #8E793E;
   color: #ffffff !important;
 }
 
@@ -196,7 +206,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #AD974F;
+  color: #8E793E;
 }
 
 .animated-item {
@@ -294,7 +304,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #AD974F;
+  color: #8E793E;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -376,7 +386,7 @@ b, strong {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #AD974F;
+  color: #8E793E;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #231F20;
@@ -478,7 +488,7 @@ b, strong {
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #AD974F;
+  color: #8E793E;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -510,10 +520,10 @@ b, strong {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #AD974F;
+  border-color: #8E793E;
 }
 .contact-form .submit-btn {
-  background: #AD974F;
+  background: #8E793E;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -542,7 +552,7 @@ b, strong {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #AD974F;
+  color: #8E793E;
 }
 
 @media (min-width: 1270px) {
