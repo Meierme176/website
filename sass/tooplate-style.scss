@@ -57,7 +57,7 @@ ul {
 a {
 	font-size: $link-font-size;
 	font-weight: $font-weight-normal;
-	text-decoration: none !important;
+	text-decoration: none;
 	@include transition-effect;
 	&:hover {
 		color: $main-color !important;

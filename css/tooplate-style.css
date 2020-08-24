@@ -6,11 +6,112 @@ https://www.tooplate.com/view/2115-marvel
 
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
+}
+
+.shiny
+{
+  margin-top: 25px;
+  color: #F5C21B;
+
+  background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#8E793E));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 2.8em;
+  font-weight: 600;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.shiny::before
+{
+  background-position: 0px;
+  animation: flare 4s infinite;
+  -webkit-animation: flare 4s infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  content: "Michael Meier";
+  color: #FFF;
+  display: block;
+  position: absolute;
+}
+
+.inner-shiny::after
+{
+  animation: sparkle 4s infinite;
+  -webkit-animation: sparkle 4s infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+	background: #FFF;
+  border-radius: 100%;
+  box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 30px #FFF, 0 0 35px #FFF;
+  content: "";
+  display: block;
+  height: 10px;
+  opacity: 0.7;
+  position: absolute;
+  width: 10px;
+}
+
+.inner-shiny::after
+{
+  top: 0.32em;
+  right: -5px;
+}
+
+@keyframes flare
+{
+  0%   { background-position: 0px; }
+  50%  { background-position: 400px; }
+  100% { background-position: 600px; }
+}
+
+@-webkit-keyframes flare
+{
+  0%   { background-position: 0px; }
+  50%  { background-position: 400px; }
+  100% { background-position: 600px; }
+}
+
+@keyframes sparkle
+{
+  0%   { opacity: 0; }
+  50%  { opacity: 0.8; }
+  100%   { opacity: 0; }
+}
+
+@-webkit-keyframes sparkle
+{
+  0%   { opacity: 0; }
+  50%  { opacity: 0.8; }
+  100%   { opacity: 0; }
+}
+
+.richnav {
+  border-bottom: 2px gray dotted; 
+  height: 55px;
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+
+.richnav-text {
+  color: #d3d3d3; font-weight: 600;
 }
 
 /* CUSTOM */
@@ -21,6 +122,16 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+
+.recommendLink {
+  color: #AD974F;
+  text-decoration: underline;
+}
+
+.project-title {  
+  color: #AD974F;
+  font-size: 26px;
 }
 
 /* Header section at the home page. ex) experiences, skillset, etc */
@@ -50,7 +161,6 @@ hr {
   
   background-color: #4b5e72;
   color: #fff;
-  text-align: center;
   border-radius: 2px;
   padding: 5px;
 
@@ -111,7 +221,7 @@ ul li {
 
 a {
   font-weight: normal;
-  text-decoration: none !important;
+  text-decoration: none;
   transition: all 0.4s ease;
 }
 a:hover {
