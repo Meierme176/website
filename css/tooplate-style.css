@@ -119,7 +119,7 @@ body {
 }
 
 .richnav {
-  border-bottom: 2px gray dotted; 
+  border-bottom: 1px #AD974F solid;  
   height: 55px;
   background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
