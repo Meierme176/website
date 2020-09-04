@@ -16,6 +16,7 @@ body {
 {
   margin-top: 25px;
   color: #F5C21B;
+  color-adjust: exact;
 
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#8E793E));  
 
